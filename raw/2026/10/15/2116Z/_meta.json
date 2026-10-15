@@ -1,13 +1,13 @@
 {
- "collected_at_utc": "2026-10-15T21:16:03.090204+00:00",
+ "collected_at_utc": "2026-10-15T21:16:51.330324+00:00",
  "stamp": "2026/10/15/2116Z",
  "n_endpoints": 18,
  "n_ok": 18,
  "n_fail": 0,
- "total_bytes_raw": 3034196,
- "total_bytes_xz": 302712,
+ "total_bytes_raw": 3034362,
+ "total_bytes_xz": 301664,
  "collector_version": "1.0",
- "run_id": "38808525519",
+ "run_id": "38808633971",
  "endpoints": [
   {
    "name": "binance_ticker24h_btc",
@@ -18,10 +18,10 @@
    "http_status": 200,
    "rows": 1,
    "bytes_raw": 556,
-   "bytes_xz": 344,
-   "sha256_raw": "7bb86f4b7a0785b865202fd0b9493fd141a066a61772e080fb2ce713c2340dea",
+   "bytes_xz": 340,
+   "sha256_raw": "508d9733b269caa6c727ffd7ddb7a27ea2268737ce63fd9ac0a13438bfc86d2a",
    "file": "binance_ticker24h_btc.json.xz",
-   "ms": 511
+   "ms": 558
   },
   {
    "name": "binance_ticker24h_eth",
@@ -31,11 +31,11 @@
    "ok": true,
    "http_status": 200,
    "rows": 1,
-   "bytes_raw": 549,
-   "bytes_xz": 340,
-   "sha256_raw": "fdfd73239f014dfaa8bdd938d0c4a21582a7680c60c07213ca16193470c66e7e",
+   "bytes_raw": 550,
+   "bytes_xz": 336,
+   "sha256_raw": "6c3a282c47aa248ffbd0e3e1416daae4a685fe64331c2bbfdabef13b08f2ee12",
    "file": "binance_ticker24h_eth.json.xz",
-   "ms": 477
+   "ms": 556
   },
   {
    "name": "okx_ticker_swap_btc",
@@ -47,9 +47,9 @@
    "rows": 1,
    "bytes_raw": 347,
    "bytes_xz": 284,
-   "sha256_raw": "0986c2692895b48402fdb614d99fa7f69e10cfee9f4c2628ec80c94e91ed3641",
+   "sha256_raw": "870cf0a0c4efadb187262925ac29f3babc26fbd9fa55bc07df356b9d5d991c88",
    "file": "okx_ticker_swap_btc.json.xz",
-   "ms": 385
+   "ms": 240
   },
   {
    "name": "okx_ticker_swap_eth",
@@ -59,11 +59,11 @@
    "ok": true,
    "http_status": 200,
    "rows": 1,
-   "bytes_raw": 348,
-   "bytes_xz": 280,
-   "sha256_raw": "d91dc80fea5ffb1d75ad91786561f2f8512389e9f6776b730a7ffcc9f3f24265",
+   "bytes_raw": 342,
+   "bytes_xz": 276,
+   "sha256_raw": "0c31dcbbe01b56e4825fe1c6aed3ffb264be36fea5ed48720087b16089ff0739",
    "file": "okx_ticker_swap_eth.json.xz",
-   "ms": 188
+   "ms": 197
   },
   {
    "name": "okx_index_btc",
@@ -75,9 +75,9 @@
    "rows": 1,
    "bytes_raw": 189,
    "bytes_xz": 208,
-   "sha256_raw": "9443a7cb5a6039862deacc754285071a7221fe47120b80927ef8efa144b602dc",
+   "sha256_raw": "3e8a3a4975d7fab25644e6ff547f86e2795e0290385f864e936d4bdbb86f191e",
    "file": "okx_index_btc.json.xz",
-   "ms": 173
+   "ms": 191
   },
   {
    "name": "okx_index_eth",
@@ -89,9 +89,9 @@
    "rows": 1,
    "bytes_raw": 188,
    "bytes_xz": 204,
-   "sha256_raw": "be541aa4eb0e7fe28b60ff02ad643a85324c50343851c43f9eb57c3abe2a438d",
+   "sha256_raw": "1940d47095227be06b6a83569ba45e950011d74b71c2c5b86128ee03529e55e7",
    "file": "okx_index_eth.json.xz",
-   "ms": 161
+   "ms": 196
   },
   {
    "name": "okx_funding_btc",
@@ -103,9 +103,9 @@
    "rows": 1,
    "bytes_raw": 524,
    "bytes_xz": 332,
-   "sha256_raw": "9ac3777980c6b7bd7c0586ef9419fb5d078b5ae2dfdbbf38a5d9344cbf26eae0",
+   "sha256_raw": "42e00b52e53e7fd33e204abca0d5d7f0dfa6092aaf58abff92f0605a75791e98",
    "file": "okx_funding_btc.json.xz",
-   "ms": 172
+   "ms": 214
   },
   {
    "name": "okx_funding_eth",
@@ -117,9 +117,9 @@
    "rows": 1,
    "bytes_raw": 522,
    "bytes_xz": 328,
-   "sha256_raw": "cc96169290029482259c1284994b2eb4e906dfbd3a74c0792d1a6634a17434ee",
+   "sha256_raw": "d70c4c8a74bb31ad33940a0af5675ef26c9ddae4382a1da803132549ce759016",
    "file": "okx_funding_eth.json.xz",
-   "ms": 170
+   "ms": 188
   },
   {
    "name": "okx_funding_hist_btc",
@@ -133,7 +133,7 @@
    "bytes_xz": 1524,
    "sha256_raw": "0e144e95c31722d0c2d387356e202f6e99ab4793164866617d506cc0b014526b",
    "file": "okx_funding_hist_btc.json.xz",
-   "ms": 170
+   "ms": 213
   },
   {
    "name": "okx_funding_hist_eth",
@@ -147,7 +147,7 @@
    "bytes_xz": 1556,
    "sha256_raw": "b291875ec8506ad66e93ec7b423bc1fbb0acf065625182fc89b991a3a45b2d7b",
    "file": "okx_funding_hist_eth.json.xz",
-   "ms": 162
+   "ms": 191
   },
   {
    "name": "okx_oi_swap_btc",
@@ -159,9 +159,9 @@
    "rows": 1,
    "bytes_raw": 189,
    "bytes_xz": 204,
-   "sha256_raw": "5b9e0a2c0ac20313db5f0f267eb223431a4babc3cc86a200fc8d9a6bcac47113",
+   "sha256_raw": "ee3d397db0fb2ffc1c86c354ad9e876907ffb0867d2501b5f81413236ebbc1e8",
    "file": "okx_oi_swap_btc.json.xz",
-   "ms": 168
+   "ms": 204
   },
   {
    "name": "okx_oi_swap_eth",
@@ -171,11 +171,11 @@
    "ok": true,
    "http_status": 200,
    "rows": 1,
-   "bytes_raw": 183,
+   "bytes_raw": 186,
    "bytes_xz": 204,
-   "sha256_raw": "5b1169b10358ebdf2e5610a7b58a77c95ad46a0b1abba474d6fc6637cd9b7f91",
+   "sha256_raw": "a22816f5911b66e0bdc178588b5413bc68a4dedf1dcac85b365a81a640f00e0f",
    "file": "okx_oi_swap_eth.json.xz",
-   "ms": 206
+   "ms": 209
   },
   {
    "name": "okx_optsum_btc",
@@ -185,11 +185,11 @@
    "ok": true,
    "http_status": 200,
    "rows": 1334,
-   "bytes_raw": 785549,
-   "bytes_xz": 109600,
-   "sha256_raw": "3624f88b2bd8f59ab08bf75cc8e7bf52b8e04b9b3594c5dcd7a7c2c08c6cef93",
+   "bytes_raw": 785376,
+   "bytes_xz": 109676,
+   "sha256_raw": "cde6df32f9ba31b5ff48ff281562b20d656501d48fd2722736cf3de3f8b0a046",
    "file": "okx_optsum_btc.json.xz",
-   "ms": 503
+   "ms": 483
   },
   {
    "name": "okx_optsum_eth",
@@ -199,11 +199,11 @@
    "ok": true,
    "http_status": 200,
    "rows": 1196,
-   "bytes_raw": 704574,
-   "bytes_xz": 98572,
-   "sha256_raw": "23027512564817edaa756eea9e438d48865bffbcf892209da3dad7f87f224a50",
+   "bytes_raw": 704806,
+   "bytes_xz": 98044,
+   "sha256_raw": "205618dee7a77d1ad09245f652b61202bc64528a004ccfcf5f87046d9d5c6c32",
    "file": "okx_optsum_eth.json.xz",
-   "ms": 449
+   "ms": 545
   },
   {
    "name": "okx_opt_oi_btc",
@@ -213,11 +213,11 @@
    "ok": true,
    "http_status": 200,
    "rows": 3280,
-   "bytes_raw": 377283,
-   "bytes_xz": 15276,
-   "sha256_raw": "fa3e00f8c4e2f01e0d52848f5bdca5fddd57026c8c7359f47416fb9fc2f60af2",
+   "bytes_raw": 377224,
+   "bytes_xz": 15152,
+   "sha256_raw": "62c168a7af91c24daa32c255ab172af9026c2c5f245b14aa3c8c9c89bdbf35b9",
    "file": "okx_opt_oi_btc.json.xz",
-   "ms": 233
+   "ms": 272
   },
   {
    "name": "okx_opt_oi_eth",
@@ -227,11 +227,11 @@
    "ok": true,
    "http_status": 200,
    "rows": 2974,
-   "bytes_raw": 339207,
-   "bytes_xz": 14796,
-   "sha256_raw": "22b21f6572bbd12bdf0f031e72c91a6d2a125e21a61b14438910b65a0984b380",
+   "bytes_raw": 338473,
+   "bytes_xz": 14324,
+   "sha256_raw": "0bf170fb838ee07bf90c9b135a11482332a5a5e8d6a45f598aa6ccd526353b34",
    "file": "okx_opt_oi_eth.json.xz",
-   "ms": 231
+   "ms": 288
   },
   {
    "name": "deribit_opt_btc",
@@ -241,11 +241,11 @@
    "ok": true,
    "http_status": 200,
    "rows": 936,
-   "bytes_raw": 417661,
-   "bytes_xz": 31372,
-   "sha256_raw": "dfdd9b72ba5c85365494cca355317af93534b05b3ca7ac61dfcd8a4271a67a78",
+   "bytes_raw": 418622,
+   "bytes_xz": 31244,
+   "sha256_raw": "2c5101cbd75f8dacec2b13807a68a6cb29e12ee6c3026aa3f39e23258b5c6a2a",
    "file": "deribit_opt_btc.json.xz",
-   "ms": 388
+   "ms": 293
   },
   {
    "name": "deribit_opt_eth",
@@ -255,11 +255,11 @@
    "ok": true,
    "http_status": 200,
    "rows": 828,
-   "bytes_raw": 367183,
-   "bytes_xz": 27288,
-   "sha256_raw": "b9d0da93e213faa6dea058e5357d83369b9cc7c086b38c92e426d58966c31ea3",
+   "bytes_raw": 367124,
+   "bytes_xz": 27428,
+   "sha256_raw": "19b821c52f5914988612450b7830fe6c0da69f7a9fc8580f26784f92bfdfeda3",
    "file": "deribit_opt_eth.json.xz",
-   "ms": 344
+   "ms": 311
   }
  ]
 }
