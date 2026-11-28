@@ -1,8 +1,8 @@
 {
- "last_run_utc": "2026-11-28T06:15:32.883363+00:00",
- "stamp": "2026/11/28/0615Z",
+ "last_run_utc": "2026-11-28T08:15:33.913582+00:00",
+ "stamp": "2026/11/28/0815Z",
  "ok": "18/18",
  "failed": [],
- "bytes_xz_this_run": 326236,
- "run_url": "https://github.com/korntrade/crypto-raw/actions/runs/46115754911"
+ "bytes_xz_this_run": 301828,
+ "run_url": "https://github.com/korntrade/crypto-raw/actions/runs/46124950648"
 }
